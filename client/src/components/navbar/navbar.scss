@@ -1,0 +1,38 @@
+.navbar {
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            padding: 0px 5px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #555;
+            font-family: cursive;
+            border-bottom: 3px solid #555;
+
+        }
+
+        .right {
+            .login-signup {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                a {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 18px;
+                    color: #333;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
